@@ -1,3 +1,117 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+.title-section {
+  width: 100%;
+  background-color: #3B4D94;
+  color: #E0C370;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.title-section .title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.title-section .desc {
+  font-size: 20px;
+}
+
+.title-section .badge-container {
+  display: none;
+}
+
+.title-section .badge-container button{
+  margin: 5px 5px 0;
+}
+
+.card {
+  margin: 10px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  max-width: 650px;
+}
+
+.card .card-body {
+  position: relative;
+  padding: 0;
+  display: flex;
+}
+
+.card .card-body .close-badge{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.card .card-body .close-badge:hover{
+  background-color: black;
+}
+
+.card .card-body img {
+  width: 150px; 
+  height: 150px; 
+  margin: 10px;
+}
+.card .card-body .card-body-container {  
+  margin: 10px;
+}
+
+.card .card-body .card-body-container .card-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card .card-body .card-body-container .badge {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.card .card-body .card-text {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.card .card-footer {
+  font-size: 20px;
+  padding: 0;
+}
+.card .card-footer .col {
+  padding: 10px;
+}
+.card .card-footer .like {
+  color: #3A50E0;
+  transition: .2s;
+  text-align: center;
+}
+
+.card .card-footer .like:hover {
+  color: #192361;
+  text-decoration: none;
+}
+
+.card .card-footer .hate {
+  color: #E03A45;
+  transition: .2s;
+  text-align: center;
+}
+
+.card .card-footer .hate:hover {
+  color: #61191E;
+  text-decoration: none;
+}
+.card .card-footer .delete {
+  color: #E05D1B;
+  transition: .2s;
+  text-align: center;
+}
+.card .card-footer .delete:hover{
+  color: #61280C;
+  text-decoration: none;
+}
+
+.btn-recover-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
