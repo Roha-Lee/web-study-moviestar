@@ -27,6 +27,13 @@ body {
 .title-section .badge-container button{
   margin: 5px 5px 0;
 }
+.card.is-show {
+  display: flex;
+}
+
+.card.is-hidden {
+  display: none;
+}
 
 .card {
   margin: 10px auto;
@@ -62,6 +69,14 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
+.card .card-body .card-body-container .card-title>a{
+  color: #3A50E0;
+}
+.card .card-body .card-body-container .card-title>a:hover{
+  color: #192361;
+  text-decoration: none;
+}
+
 
 .card .card-body .card-body-container .badge {
   font-size: 1rem;
