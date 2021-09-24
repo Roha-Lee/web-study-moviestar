@@ -20,19 +20,17 @@ body {
   font-size: 20px;
 }
 
-.title-section .badge-container {
-  display: none;
-}
-
 .title-section .badge-container button{
   margin: 5px 5px 0;
-}
-.card.is-show {
-  display: flex;
+  background-color: #E0C370;
 }
 
-.card.is-hidden {
+.reset-msg {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
   display: none;
+
 }
 
 .card {
@@ -131,7 +129,7 @@ body {
   text-decoration: none;
 }
 
-.btn-recover-container {
+.btn-reset-container {
   margin-top: 10px;
   display: flex;
   justify-content: center;
