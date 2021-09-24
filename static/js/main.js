@@ -23,7 +23,7 @@ function generateCard({url, image, name, like, movies, visible}){
   `<div class="card mb-3 ${isShow}">
     <div class="card-body">
       <div class="badge badge-danger close-badge">X</div>
-      <img class="basic" src="${image}" alt="${name}">
+      <img class="basic" src="${image}" alt="${name}" onclick="toggleImageSize(this)">
       <div class="card-body-container">
         <p class="card-title"><a href="${url}">${name}</a><span class="badge badge-pill badge-dark">${like}</span></p>
         <p class="card-text">대표작: ${moviesStr}</p>
@@ -59,8 +59,12 @@ function generateCard({url, image, name, like, movies, visible}){
   $('.card-container').append(cardHtml)
 }
 
-// function toggleImageSize(){
-// }
+function toggleImageSize(e){
+  let image_class = $(e).attr('class')
+  if (image_class == 'basic') $(e).attr('class', 'enlarged') 
+  else $(e).attr('class', 'basic')
+  console.log($(e).attr('class'))
+}
 
 $(document).ready(function () {
   showMoviestars()

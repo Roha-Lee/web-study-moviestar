@@ -56,10 +56,16 @@ body {
   background-color: black;
 }
 
-.card .card-body img {
-  width: 150px; 
+.card .card-body img.basic{
   height: 150px; 
   margin: 10px;
+  transition: .5s;
+}
+
+.card .card-body img.enlarged{
+  height: 300px; 
+  margin: 10px;
+  transition: .5s;
 }
 .card .card-body .card-body-container {  
   margin: 10px;
