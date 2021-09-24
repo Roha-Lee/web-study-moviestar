@@ -1,4 +1,21 @@
 # web-study-moviestar
+## requirements
+- beautifulsoup4     4.10.0
+- certifi            2021.5.30
+- charset-normalizer 2.0.6
+- click              8.0.1
+- Flask              2.0.1
+- idna               3.2
+- itsdangerous       2.0.1
+- Jinja2             3.0.1
+- MarkupSafe         2.0.1
+- pip                20.1.1
+- pymongo            3.12.0
+- requests           2.26.0
+- setuptools         47.1.0
+- soupsieve          2.2.1
+- urllib3            1.26.7
+- Werkzeug           2.0.1
 
 ## 레이아웃 
 - [x] 상단 헤더부분 심플하게 구현
